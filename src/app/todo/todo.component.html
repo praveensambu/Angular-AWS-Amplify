@@ -1,0 +1,8 @@
+<div style="text-align: center">
+  <input type="text" #todoName>
+  <button (click)="createTodo(todoName)">Create ToDo</button>
+  <div *ngFor="let todo of allToDos">
+      <br>
+      <p>Title : {{todo.name}}</p>
+  </div>
+</div>

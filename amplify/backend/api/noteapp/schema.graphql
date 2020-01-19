@@ -1,0 +1,16 @@
+type User @model {
+  id: ID!
+  username: String!
+  firstName: String
+  lastName: String
+  bio: String
+  image: String
+}
+
+type Todo @model {
+  id :ID!
+  name: String!
+  body : String
+  completed: Boolean
+
+}
