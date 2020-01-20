@@ -19,7 +19,7 @@ export class ProfileComponent implements OnInit {
     Auth.currentAuthenticatedUser({
         bypassCache: false
       }).then(async user => {
-        this.userId = user.attributes.sub;
+        this.userId = user.attributes.email;
         this.userName = user.username;
       })
       .catch(err => console.log(err));
