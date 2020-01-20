@@ -15,11 +15,6 @@ const routes: Routes = [{
 {
   path: 'login',
   component: AuthComponent
-},
-{
-  path: '**',
-  redirectTo: 'todo',
-  pathMatch: 'full'
 }
 ];
 
