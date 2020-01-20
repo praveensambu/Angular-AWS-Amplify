@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {APIService} from '../API.service';
 import {AppsyncService} from '../appsync.service';
-import { AmplifyService }  from 'aws-amplify-angular';
 
 @Component({
   selector: 'app-todo',
@@ -21,7 +20,6 @@ export class TodoComponent implements OnInit {
         this.allToDos.push(newtodo);
       }
     });
-    console.log(result);
   }
 
   public async createTodo(todoName) {
