@@ -16,5 +16,23 @@
                 "noteapp565b2244": {}
             }
         }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-noteapp-prod-161511-authRole",
+            "UnauthRoleArn": "arn:aws:iam::018703372185:role/amplify-noteapp-prod-161511-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::018703372185:role/amplify-noteapp-prod-161511-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-noteapp-prod-161511-deployment",
+            "UnauthRoleName": "amplify-noteapp-prod-161511-unauthRole",
+            "StackName": "amplify-noteapp-prod-161511",
+            "StackId": "arn:aws:cloudformation:us-east-1:018703372185:stack/amplify-noteapp-prod-161511/f28996b0-3bc9-11ea-ac36-0a55488d44ba",
+            "AmplifyAppId": "d3690sw5dvbdeg"
+        },
+        "categories": {
+            "auth": {
+                "noteapp565b2244": {}
+            }
+        }
     }
 }
